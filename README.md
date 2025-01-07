@@ -20,7 +20,7 @@ should automatically handle building MicroPython for you.
 
 ## PGA2350
 
-More info at [pimoroni.com/pga2350](pimoroni.com/pga2350)
+More info at [pimoroni.com/pga2350](https://pimoroni.com/pga2350)
 
 * Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)
 * 16MB of QSPI flash supporting XiP
