@@ -53,3 +53,5 @@ More info at [pimoroni.com/pga2350](pimoroni.com/pga2040)
 * Measurements: approx 21mm x 21mm x 3mm (L x W x H)
 
 ![Pinout diagram for the PGA2040](pga2040.webp)
+
+.
