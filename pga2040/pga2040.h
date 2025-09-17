@@ -78,4 +78,33 @@
 #define PICO_RP2040_B0_SUPPORTED 0
 #endif
 
+// --- CYW43 WiFi chip pins (based on RM2 breakout board) ---
+#ifndef CYW43_WL_GPIO_COUNT
+#define CYW43_WL_GPIO_COUNT 3
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_REG_ON
+#define CYW43_DEFAULT_PIN_WL_REG_ON 23u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_DATA_OUT
+#define CYW43_DEFAULT_PIN_WL_DATA_OUT 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_DATA_IN
+#define CYW43_DEFAULT_PIN_WL_DATA_IN 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_HOST_WAKE
+#define CYW43_DEFAULT_PIN_WL_HOST_WAKE 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_CLOCK
+#define CYW43_DEFAULT_PIN_WL_CLOCK 29u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_CS
+#define CYW43_DEFAULT_PIN_WL_CS 25u
+#endif
+
 #endif

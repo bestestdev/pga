@@ -12,3 +12,7 @@ set(MICROPY_FROZEN_MANIFEST ${MICROPY_BOARD_DIR}/manifest.py)
 # If USER_C_MODULES or MicroPython customisations use malloc then
 # there needs to be some RAM reserved for the C heap
 set(MICROPY_C_HEAP_SIZE 4096)
+
+# Enable networking and CYW43 driver at CMake level
+set(MICROPY_PY_LWIP ON)
+set(MICROPY_PY_NETWORK_CYW43 ON)

@@ -100,6 +100,9 @@ echo "Setting version info..."
 export GITHUB_ENV=/dev/null
 micropython_version
 
+echo "Cleaning previous build..."
+rm -rf build-*
+
 echo "Configuring build..."
 # Set user module environment variables for cmake
 export USER_C_MODULES="$USER_C_MODULES_PATH"

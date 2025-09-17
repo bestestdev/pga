@@ -85,6 +85,35 @@
 // no PICO_VBUS_PIN
 // no PICO_VSYS_PIN
 
+// --- CYW43 WiFi chip pins (based on RM2 breakout board) ---
+#ifndef CYW43_WL_GPIO_COUNT
+#define CYW43_WL_GPIO_COUNT 3
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_REG_ON
+#define CYW43_DEFAULT_PIN_WL_REG_ON 23u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_DATA_OUT
+#define CYW43_DEFAULT_PIN_WL_DATA_OUT 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_DATA_IN
+#define CYW43_DEFAULT_PIN_WL_DATA_IN 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_HOST_WAKE
+#define CYW43_DEFAULT_PIN_WL_HOST_WAKE 24u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_CLOCK
+#define CYW43_DEFAULT_PIN_WL_CLOCK 29u
+#endif
+
+#ifndef CYW43_DEFAULT_PIN_WL_CS
+#define CYW43_DEFAULT_PIN_WL_CS 25u
+#endif
+
 #ifndef PICO_RP2350_A2_SUPPORTED
 #define PICO_RP2350_A2_SUPPORTED 1
 #endif
